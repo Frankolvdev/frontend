@@ -1,11 +1,9 @@
-import { Hero } from "@/components/home/hero";
-import { TryOnShowcase } from "@/components/home/try-on-showcase";
+import { CinematicLanding } from "@/components/home/cinematic-landing";
 
 export default function HomePage() {
   return (
     <main>
-      <Hero />
-      <TryOnShowcase />
+      <CinematicLanding />
     </main>
   );
 }
