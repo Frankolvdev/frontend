@@ -1,9 +1,5 @@
-import { CinematicLanding } from "@/components/home/cinematic-landing";
+import { LuxeLanding } from "@/components/home/luxe-landing";
 
 export default function HomePage() {
-  return (
-    <main>
-      <CinematicLanding />
-    </main>
-  );
+  return <LuxeLanding />;
 }
